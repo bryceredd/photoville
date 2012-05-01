@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02E30E71154F8D700042161D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E30E70154F8D700042161D /* UIKit.framework */; };
+		02E30E73154F8D700042161D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E30E72154F8D700042161D /* Foundation.framework */; };
+		02E30E75154F8D700042161D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E30E74154F8D700042161D /* CoreGraphics.framework */; };
+		02E30E77154F8D700042161D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E30E76154F8D700042161D /* CoreData.framework */; };
+		02E30E7D154F8D700042161D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 02E30E7B154F8D700042161D /* InfoPlist.strings */; };
+		02E30E7F154F8D700042161D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E30E7E154F8D700042161D /* main.m */; };
+		02E30E83154F8D700042161D /* PVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E30E82154F8D700042161D /* PVAppDelegate.m */; };
+		02E30E86154F8D700042161D /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02E30E84154F8D700042161D /* MainStoryboard_iPhone.storyboard */; };
+		02E30E89154F8D700042161D /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02E30E87154F8D700042161D /* MainStoryboard_iPad.storyboard */; };
+		02E30E8C154F8D700042161D /* photoville.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 02E30E8A154F8D700042161D /* photoville.xcdatamodeld */; };
+		02E30E8F154F8D700042161D /* PVMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E30E8E154F8D700042161D /* PVMasterViewController.m */; };
+		02E30E92154F8D700042161D /* PVDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E30E91154F8D700042161D /* PVDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02E30E6C154F8D700042161D /* photoville.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = photoville.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02E30E70154F8D700042161D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		02E30E72154F8D700042161D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		02E30E74154F8D700042161D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		02E30E76154F8D700042161D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		02E30E7A154F8D700042161D /* photoville-Info.plist */ = {isa = PBXFileReference; path = "photoville-Info.plist"; sourceTree = "<group>"; };
+		02E30E7C154F8D700042161D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		02E30E7E154F8D700042161D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		02E30E80154F8D700042161D /* photoville-Prefix.pch */ = {isa = PBXFileReference; path = "photoville-Prefix.pch"; sourceTree = "<group>"; };
+		02E30E81154F8D700042161D /* PVAppDelegate.h */ = {isa = PBXFileReference; path = PVAppDelegate.h; sourceTree = "<group>"; };
+		02E30E82154F8D700042161D /* PVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PVAppDelegate.m; sourceTree = "<group>"; };
+		02E30E85154F8D700042161D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		02E30E88154F8D700042161D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		02E30E8B154F8D700042161D /* photoville.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = photoville.xcdatamodel; sourceTree = "<group>"; };
+		02E30E8D154F8D700042161D /* PVMasterViewController.h */ = {isa = PBXFileReference; path = PVMasterViewController.h; sourceTree = "<group>"; };
+		02E30E8E154F8D700042161D /* PVMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PVMasterViewController.m; sourceTree = "<group>"; };
+		02E30E90154F8D700042161D /* PVDetailViewController.h */ = {isa = PBXFileReference; path = PVDetailViewController.h; sourceTree = "<group>"; };
+		02E30E91154F8D700042161D /* PVDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PVDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02E30E69154F8D700042161D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02E30E71154F8D700042161D /* UIKit.framework in Frameworks */,
+				02E30E73154F8D700042161D /* Foundation.framework in Frameworks */,
+				02E30E75154F8D700042161D /* CoreGraphics.framework in Frameworks */,
+				02E30E77154F8D700042161D /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02E30E61154F8D700042161D = {
+			isa = PBXGroup;
+			children = (
+				02E30E78154F8D700042161D /* photoville */,
+				02E30E6F154F8D700042161D /* Frameworks */,
+				02E30E6D154F8D700042161D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02E30E6D154F8D700042161D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02E30E6C154F8D700042161D /* photoville.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02E30E6F154F8D700042161D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02E30E70154F8D700042161D /* UIKit.framework */,
+				02E30E72154F8D700042161D /* Foundation.framework */,
+				02E30E74154F8D700042161D /* CoreGraphics.framework */,
+				02E30E76154F8D700042161D /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		02E30E78154F8D700042161D /* photoville */ = {
+			isa = PBXGroup;
+			children = (
+				02E30E81154F8D700042161D /* PVAppDelegate.h */,
+				02E30E82154F8D700042161D /* PVAppDelegate.m */,
+				02E30E84154F8D700042161D /* MainStoryboard_iPhone.storyboard */,
+				02E30E87154F8D700042161D /* MainStoryboard_iPad.storyboard */,
+				02E30E8D154F8D700042161D /* PVMasterViewController.h */,
+				02E30E8E154F8D700042161D /* PVMasterViewController.m */,
+				02E30E90154F8D700042161D /* PVDetailViewController.h */,
+				02E30E91154F8D700042161D /* PVDetailViewController.m */,
+				02E30E8A154F8D700042161D /* photoville.xcdatamodeld */,
+				02E30E79154F8D700042161D /* Supporting Files */,
+			);
+			path = photoville;
+			sourceTree = "<group>";
+		};
+		02E30E79154F8D700042161D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02E30E7A154F8D700042161D /* photoville-Info.plist */,
+				02E30E7B154F8D700042161D /* InfoPlist.strings */,
+				02E30E7E154F8D700042161D /* main.m */,
+				02E30E80154F8D700042161D /* photoville-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02E30E6B154F8D700042161D /* photoville */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02E30E95154F8D700042161D /* Build configuration list for PBXNativeTarget "photoville" */;
+			buildPhases = (
+				02E30E68154F8D700042161D /* Sources */,
+				02E30E69154F8D700042161D /* Frameworks */,
+				02E30E6A154F8D700042161D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = photoville;
+			productName = photoville;
+			productReference = 02E30E6C154F8D700042161D /* photoville.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02E30E63154F8D700042161D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PV;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Itv;
+			};
+			buildConfigurationList = 02E30E66154F8D700042161D /* Build configuration list for PBXProject "photoville" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 02E30E61154F8D700042161D;
+			productRefGroup = 02E30E6D154F8D700042161D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02E30E6B154F8D700042161D /* photoville */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02E30E6A154F8D700042161D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02E30E7D154F8D700042161D /* InfoPlist.strings in Resources */,
+				02E30E86154F8D700042161D /* MainStoryboard_iPhone.storyboard in Resources */,
+				02E30E89154F8D700042161D /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02E30E68154F8D700042161D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02E30E7F154F8D700042161D /* main.m in Sources */,
+				02E30E83154F8D700042161D /* PVAppDelegate.m in Sources */,
+				02E30E8C154F8D700042161D /* photoville.xcdatamodeld in Sources */,
+				02E30E8F154F8D700042161D /* PVMasterViewController.m in Sources */,
+				02E30E92154F8D700042161D /* PVDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		02E30E7B154F8D700042161D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02E30E7C154F8D700042161D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		02E30E84154F8D700042161D /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02E30E85154F8D700042161D /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		02E30E87154F8D700042161D /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02E30E88154F8D700042161D /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02E30E93154F8D700042161D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02E30E94154F8D700042161D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02E30E96154F8D700042161D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "photoville/photoville-Prefix.pch";
+				INFOPLIST_FILE = "photoville/photoville-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		02E30E97154F8D700042161D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "photoville/photoville-Prefix.pch";
+				INFOPLIST_FILE = "photoville/photoville-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02E30E66154F8D700042161D /* Build configuration list for PBXProject "photoville" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02E30E93154F8D700042161D /* Debug */,
+				02E30E94154F8D700042161D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02E30E95154F8D700042161D /* Build configuration list for PBXNativeTarget "photoville" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02E30E96154F8D700042161D /* Debug */,
+				02E30E97154F8D700042161D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		02E30E8A154F8D700042161D /* photoville.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				02E30E8B154F8D700042161D /* photoville.xcdatamodel */,
+			);
+			currentVersion = 02E30E8B154F8D700042161D /* photoville.xcdatamodel */;
+			path = photoville.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 02E30E63154F8D700042161D /* Project object */;
+}
