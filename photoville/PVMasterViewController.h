@@ -7,16 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@class PVDetailViewController;
-
 #import <CoreData/CoreData.h>
 
-@interface PVMasterViewController : UITableViewController <NSFetchedResultsControllerDelegate>
 
-@property (strong, nonatomic) PVDetailViewController *detailViewController;
+@interface PVMasterViewController : UIViewController
 
-@property (strong, nonatomic) NSFetchedResultsController *fetchedResultsController;
 @property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
+@property (retain, nonatomic) IBOutlet UIScrollView *scrollView;
 
 @end
